@@ -1,0 +1,114 @@
+.skills-heading{
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  padding: 50px 30px 30px 30px;
+  letter-spacing: 1px;
+  width: 20%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.skills {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../Images/macbook.jpeg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: Gtwalsheimprotrial, sans-serif;
+}
+
+.skills-box {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  /* padding: 0px 300px 100px; */
+  width: 50%;
+  margin: auto;
+}
+
+.skills-left {
+  float: left;
+  padding: 20px;
+}
+
+.skills-right {
+  float: right;
+  padding: 20px;
+}
+
+.sk-container {
+  width: 100%;
+  background-color: #696969;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+
+.skill {
+  text-align: right;
+  padding: 5px 5px 5px 0;
+  color: white;
+  border-radius: 30px;
+}
+
+.java {
+  width: 80%;
+  background-color: #5f99ff;
+}
+
+.ds {
+  width: 75%;
+  background-color: #5f99ff;
+}
+
+.docker {
+  width: 70%;
+  background-color: #5f99ff;
+}
+
+.Kubernetes {
+  width: 70%;
+  background-color: #5f99ff;
+}
+
+.mysql {
+  width: 75%;
+  background-color: #5f99ff;
+}
+
+.mongodb {
+  width: 80%;
+  background-color: #5f99ff;
+}
+
+.html {
+  width: 85%;
+  background-color: #5f99ff;
+}
+
+.css {
+  width: 80%;
+  background-color: #5f99ff;
+}
+
+.js {
+  width: 90%;
+  background-color: #5f99ff;
+}
+
+.node {
+  width: 70%;
+  background-color: #5f99ff;
+}
+
+.react {
+  width: 80%;
+  background-color: #5f99ff;
+}
+
+.net {
+  width: 80%;
+  background-color: #5f99ff;
+}

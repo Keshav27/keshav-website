@@ -1,0 +1,91 @@
+.aboutme {
+  position: absolute;
+  display: grid;
+  z-index: 10;
+  height: 60vh;
+  align-items: center;
+  padding: 0 200px;
+  grid-template-columns: 50% 50%;
+  color: #999;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: justify;
+  font-family: Gtwalsheimprotrial, sans-serif;
+}
+
+.aboutme-1 {
+  font-weight: bold;
+  color: #689af8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.aboutme-2 {
+  padding-right: 35px;
+  font-family: Gtwalsheimprotrial, sans-serif;
+  text-align: left;
+  font-size: 38px;
+  line-height: 44px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.aboutme-3 {
+  padding-right: 51px;
+  padding-left: 0px;
+  display: flex;
+  margin-top: 18px;
+  padding-left: 0px;
+  border-bottom: 1px solid #689af8;
+  border-left: 2px none #689af8;
+  font-family: Gtwalsheimprotrial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 4px;
+  max-width: 270px;
+}
+
+.info {
+  z-index: 100;
+  padding-right: 0px;
+  color: #999;
+  font-size: 1.3em;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: justify;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.instagram {
+  text-decoration: none;
+  color: white;
+}
+
+.instagram-icon {
+  font-size: 20px;
+}
+
+#background-video {
+  z-index: -1;
+  width: 80%;
+  height: 200px;
+}
+.parent {
+  display: flex;
+  box-shadow: inset 0px -90px 100px 180px #000;
+}
+
+.videoo {
+  width: 100%;
+}
+
+.back-video {
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  width: 100%;
+  z-index: -100;
+  opacity: 0.4;
+}

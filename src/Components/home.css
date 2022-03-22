@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.home-parent {
+  display: grid;
+  width: 60%;
+  height: 100vh;
+  align-items: center;
+  margin: auto;
+  grid-template-columns: 65% 35%;
+  color: #999;
+  font-size: 1.3em;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.home-parent-left {
+  z-index: 10;
+  text-align: left;
+  opacity: 1;
+  margin: 0;
+  display: grid;
+  row-gap: 10px;
+}
+
+.home-parent-right {
+  z-index: 2;
+}
+
+.myImg {
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 100%;
+  max-width: 100%;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 0px black inset;
+}
+
+.hello {
+  height: 30px;
+  z-index: 10;
+  display: block;
+  color: hsla(0, 0%, 100%, 0.95);
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 4px;
+}
+
+.name {
+  z-index: 100;
+  height: 60px;
+  padding-top: 20px;
+  display: block;
+  font-size: 100px;
+  color: hsla(0, 0%, 100%, 0.95);
+}
+
+.about-me {
+  padding-left: 4px;
+}
+
+.scrolltonext{
+  color: white;
+  text-decoration: none;
+}
+
+.vf {
+  position: absolute;
+  font-size: 20vh;
+  color: #5f99ff;
+  margin-top: -34px;
+}
+
+.front {
+  z-index: 10;
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  color: #0f0f0f;
+  font-size: 100px;
+  line-height: 0.8em;
+  letter-spacing: -0.7px;
+  margin-top: -40px;
+}
+
+.about-me {
+  z-index: 10;
+}
+
+.scroll{
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #689af8;
+    display: flex;
+    margin-top: 18px;
+    padding-left: 0px;
+    color: white;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    min-width: 165px;
+    max-width: 165px;
+}

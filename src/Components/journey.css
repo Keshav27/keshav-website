@@ -1,0 +1,116 @@
+.journey {
+  max-height: 85vh;
+  padding: 30px;
+  width: 70%;
+  margin: auto;
+  /* margin-bottom: 100px; */
+}
+
+.project-heading {
+  font-size: 70px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  min-width: 230px;
+  max-width: 10%;
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+.journey-gallary {
+  height: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 20px 0;
+}
+
+.ele {
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+}
+
+.ele1,
+.ele2,
+.ele3,
+.ele4 {
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50%;
+  background-position-y: top;
+}
+
+.ele1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../Images/ServiceNow_logo.png);
+}
+
+.ele2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../Images/MAQ.png);
+}
+
+.ele3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../Images/darwinbox.png);
+}
+
+.skills-list {
+  padding: 0 20px 0 30px;
+  text-align: justify;
+  overflow: auto;
+  max-height: 60vh;
+}
+
+.journey-logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.journey-logo img {
+  height: 25px;
+}
+
+.doon {
+  display: flex;
+  color: red;
+}
+
+.doon-school {
+  width: 225px;
+  font-family: fantasy;
+  font-size: large;
+  margin: 10px auto;
+}
+
+.cf {
+  position: absolute;
+  font-size: 5vh;
+  color: #5f99ff;
+  margin-top: 44px;
+}
+
+.companyName {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  color: #fff;
+  line-height: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.duration {
+  color: #6d6d6d;
+  margin: 20px 0 0 0;
+}
+
+.designation {
+  color: #6d6d6d;
+  margin: 5px 0 20px 0;
+}
