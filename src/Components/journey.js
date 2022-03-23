@@ -8,9 +8,11 @@ const Journey = () => {
       </p>
       <div class="journey-gallary">
         <div class="ele ele1">
-          <p className="companyName">ServiceNow</p>
-          <p className="duration">Oct 2021 - Present</p>
-          <p className="designation">Software Engineer</p>
+          <div className="des">
+            <p className="companyName">ServiceNow</p>
+            <p className="duration">Oct 2021 - Present</p>
+            <p className="designation">Software Engineer</p>
+          </div>
           <ul className="skills-list">
             <li>
               At ServiceNow, we make the world of work, work better for people.
@@ -35,9 +37,11 @@ const Journey = () => {
           </ul>
         </div>
         <div class="ele ele2">
-          <p className="companyName">MAQ Software</p>
-          <p className="duration">July 2020 - Oct 2021</p>
-          <p className="designation">Software Engineer 1</p>
+          <div className="des"> 
+            <p className="companyName">MAQ Software</p>
+            <p className="duration">July 2020 - Oct 2021</p>
+            <p className="designation">Software Engineer 1</p>
+          </div>
           <ul className="skills-list">
             <li>
               Worked on a tool named BING – Export to PPT, this tool is usedto
@@ -69,9 +73,11 @@ const Journey = () => {
           </ul>
         </div>
         <div class="ele ele3">
-          <p className="companyName">Darwinbox</p>
-          <p className="duration">Jan 2020 - Jun 2020</p>
-          <p className="designation">Software Developer Intern</p>
+          <div className="des">
+            <p className="companyName">Darwinbox</p>
+            <p className="duration">Jan 2020 - Jun 2020</p>
+            <p className="designation">Software Developer Intern</p>
+          </div>
           <ul className="skills-list">
             <li>Work with developers to design algorithms and flowcharts.</li>
             <li>Troubleshoot, debug and upgrade existing software.</li>

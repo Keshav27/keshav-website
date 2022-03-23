@@ -4,7 +4,7 @@
   z-index: 10;
   height: 60vh;
   align-items: center;
-  padding: 0 200px;
+  padding: 0 5%;
   grid-template-columns: 50% 50%;
   color: #999;
   line-height: 24px;
@@ -67,6 +67,11 @@
   font-size: 20px;
 }
 
+.containerr{
+  height: 70vh;
+  box-shadow: inset 0px -90px 100px 180px #000;
+}
+
 #background-video {
   z-index: -1;
   width: 80%;
@@ -74,7 +79,8 @@
 }
 .parent {
   display: flex;
-  box-shadow: inset 0px -90px 100px 180px #000;
+  position: absolute;
+  width: 100%;
 }
 
 .videoo {
@@ -85,7 +91,6 @@
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
-  width: 100%;
   z-index: -100;
   opacity: 0.4;
 }

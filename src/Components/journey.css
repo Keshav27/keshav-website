@@ -1,5 +1,5 @@
 .journey {
-  max-height: 85vh;
+  max-height: 100vh;
   padding: 30px;
   width: 70%;
   margin: auto;
@@ -15,6 +15,10 @@
   font-weight: bold;
   color: white;
   display: block;
+}
+
+.des{
+  min-height: 125px;
 }
 
 .journey-gallary {

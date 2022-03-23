@@ -1,14 +1,10 @@
 .connect {
-  height: 55vh;
-  padding: 40px 200px 0 200px;
-  margin: 200px auto;
   color: white;
   font-family: Gtwalsheimprotrial, sans-serif;
-  margin-top: -300px;
   margin-bottom: 0;
   z-index: 10;
   background-color: black;
-  box-shadow: 100px 20px 900px 300px #000000;
+  /* box-shadow: 100px 20px 900px 300px #000000; */
   position: relative;
 }
 
@@ -21,7 +17,6 @@
 }
 
 .together {
-  padding-right: 35px;
   font-family: Gtwalsheimprotrial, sans-serif;
   text-align: center;
   font-size: 38px;
@@ -33,9 +28,6 @@
 }
 
 .message {
-  padding-top: 28px;
-  padding-right: 124px;
-  padding-left: 124px;
   font-family: Gtwalsheimprotrial, sans-serif;
   text-align: center;
   text-decoration: none;

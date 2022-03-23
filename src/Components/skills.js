@@ -12,7 +12,7 @@ const Skills = () => {
               <div class="skill java">80%</div>
             </div>
 
-            <p>Data Structures and Algorithms</p>
+            <p>DS</p>
             <div class="sk-container">
               <div class="skill ds">75%</div>
             </div>
